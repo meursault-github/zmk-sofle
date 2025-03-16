@@ -181,7 +181,7 @@ layers:
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - '&soft_off'
   - $$mdi:progress-download$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - A
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
