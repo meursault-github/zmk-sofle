@@ -102,7 +102,7 @@
 &kp F1           &kp F2       &kp F3    &kp F4      &kp F5       &kp F6       &mmv MOVE_DOWN   &kp F7         &kp F8        &kp F9                &kp F10                &kp F11         &kp F12
 &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET    &mmv MOVE_LEFT   &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp EQUAL
 &trans           &trans       &trans    &trans      &trans       &trans       &mmv MOVE_RIGHT  &trans         &trans        &trans                &trans                 &kp UNDERSCORE  &kp PLUS
-&kp C_MUTE       &trans       &trans    &trans      &trans       &trans       &mkp LCLK        &trans         &trans        &trans                &trans                 &trans
+&kp C_MUTE       &trans       &trans    &trans      &trans       &to 0        &mkp LCLK        &trans         &trans        &trans                &trans                 &trans
             >;
 
             display-name = "layer1";
@@ -115,7 +115,7 @@
 &trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
 &trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
 &trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &kp A
-&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
+&trans     &trans        &trans          &trans        &trans        &to 0           &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -127,7 +127,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &to 0     &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
