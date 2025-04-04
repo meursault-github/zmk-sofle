@@ -54,7 +54,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - PgDn
   - $$mdi:volume-off$$
-  - layer1
+  - '&behavior'
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
@@ -119,7 +119,7 @@ layers:
   - _
   - +
   - $$mdi:volume-off$$
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
