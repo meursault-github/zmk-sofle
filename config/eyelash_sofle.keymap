@@ -126,7 +126,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &to 0   &trans  &trans  &trans  &none     &none   &trans  &trans  &trans  &trans  &trans
+&trans  &to 0   &kp A   &trans  &trans  &none     &none   &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
